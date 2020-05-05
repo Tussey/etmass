@@ -463,7 +463,7 @@ a {
 /* end of contact  */
 /* footer */
 .footer {
-  background: var(--mainDark);
+  background: rgb(31, 31, 31);
   text-align: center;
 }
 
