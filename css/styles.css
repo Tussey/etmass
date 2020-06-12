@@ -97,16 +97,19 @@ a {
   color: var(--mainDark);
   padding-left: 0.5rem;
 }
-.nav-footer{
-  list-style-type: none;
+.nav-footer li{
+  display: inline;
+  float:left;
 }
-.nav-footer-link{
+.nav-footer a{
   display: block;
-  font-size: 2rem;
-  text-transform: uppercase;
-  color: var(--primaryColor);
-  transition: var(--mainTransition);
+  padding: 8px;
+  font-size: 0.7rem !important;
 }
+.nav-footer a:hover{
+  color:white;
+}
+
 .showNav {
   transform: translateX(0);
 }
