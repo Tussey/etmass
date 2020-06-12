@@ -240,6 +240,7 @@ a {
   background: var(--mainGrey);
 }
 .skill {
+  /* margin: 0 auto; */
   padding: 2.5rem 0;
   text-align: center;
   transition: var(--mainTransition);
@@ -282,7 +283,7 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .skill {
-    width: 25%;
+    width: 30%;
   }
 }
 /* end of skills */
