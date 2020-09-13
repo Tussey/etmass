@@ -499,6 +499,9 @@ a {
 .social-icon:hover {
   color: var(--primaryColor);
 }
+.clearf {
+  clear: both;
+}
 .footer-text {
   text-transform: uppercase;
   color: var(--mainWhite);
