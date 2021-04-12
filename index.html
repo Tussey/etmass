@@ -1,177 +1,684 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>etmass || Home</title>
-    <!-- font-awesome -->
-    <link rel="stylesheet" href="./fontawesome-free-5.7.2-web/css/all.css" />
-    <!-- custom css -->
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <!-- nav button -->
-    <span class="nav-btn" id="nav-btn">
-      <i class="fas fa-bars"></i>
-    </span>
-    <!-- nav -->
-    <nav class="navbar" id="navbar">
-      <div class="navbar-header">
-        <span class="nav-close" id="nav-close">
-          <i class="fas fa-times"></i>
-        </span>
-      </div>
-      <ul class="nav-items">
-        <li><a href="index.html" class="nav-link active">home</a></li>
-        <li><a href="mission.html" class="nav-link">mission</a></li>
-        <li><a href="about.html" class="nav-link">about</a></li>
-        <!-- <li><a href="products.html" class="nav-link">products</a></li> -->
-        <li><a href="contact.html" class="nav-link">contact</a></li>
-        <li><a href="donate.html" class="nav-link">donate</a></li>
-      </ul>
-    </nav>
-    <!-- header -->
-    <header class="header">
-      <div class="banner">
-        <h3 class="banner-subtitle">Welcome to :</h3>
-        <h1 class="banner-title">etmass</h1>
-        <a href="mission.html" class="banner-btn">explore</a>
-      </div>
-    </header>
-    <div class="content-divider"></div>
-    <!-- skills section -->
-    <section class="skills clearfix">
-      <!-- single skill -->
-      <article class="skill">
-        <span class="skill-icon">
-          <!-- <i class="fa fa-male "></i> -->
-          <i class="fa fa-bullseye" aria-hidden="true"></i>
-        </span>
-        <h3 class="skill-title">reach out</h3>
-        <!-- ten words -->
-        <p class="skill-text">
-          To reach out to the un-reached communities with the whole gospel of
-          our Lord and Saviour Jesus Christ.
-        </p>
-      </article>
-      <!-- end of single skill -->
-      <!-- single skill -->
-      <article class="skill">
-        <span class="skill-icon">
-          <!-- <i class="fa fa-chevron-circle-right"></i> -->
-          <i class="fa fa-bullhorn" aria-hidden="true"></i>
-        </span>
-        <h3 class="skill-title">biblical leadership</h3>
-        <!-- ten words -->
-        <p class="skill-text">
-          To render biblical leadership training to indigenous Christian and
-          Community leaders.
-        </p>
-      </article>
-      <!-- end of single skill -->
-      <!-- single skill -->
-      <article class="skill">
-        <span class="skill-icon">
-          <!-- <i class="fas fa-book"></i> -->
-          <i class="fa fa-building" aria-hidden="true"></i>
-        </span>
-        <h3 class="skill-title">socio-economic support</h3>
-        <!-- ten words -->
-        <p class="skill-text">
-          To render socio-economic support services to less privileged
-          individuals, organizations and communities.
-        </p>
-      </article>
-      <!-- end of single skill -->
-      <!-- single skill -->
-      <article class="skill">
-        <span class="skill-icon">
-          <!-- <i class="fas fa-fa-clone"></i> -->
-          <i class="fa fa-clone" aria-hidden="true"></i>
-        </span>
-        <h3 class="skill-title">service</h3>
-        <!-- ten words -->
-        <p class="skill-text">
-          We are mindful of the holistic development and wellbeing of the human
-          race.
-        </p>
-      </article>
-      <!-- end of single skill -->
-    </section>
-    <!--end of skills section -->
-    <!-- about -->
-    <section class="about">
-      <div class="section-center clearfix">
-        <article class="about-img">
-          <div class="about-picture-container">
-            <img
-              src="./images/praying.jpg"
-              alt="tea kettle"
-              class="about-picture"
-            />
-          </div>
-        </article>
-        <article class="about-info">
-          <!-- section title -->
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png" />
+  <link href="dist/aos.css" rel="stylesheet">
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> -->
+  <!-- <link rel="stylesheet" href="./font-awesome/css/all.min.css" /> -->
+  <link rel="stylesheet" href="tailwind-starter-kit/compiled-tailwind.min.css" />
+  <!-- <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" /> -->
+  <link rel="stylesheet" href="style.css" />
+  <title>ETMASS | Home</title>
+</head>
+
+<body class="text-gray-800 antialiased">
+  <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3">
+    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+          href="#home"><img class="logoo" src="assets/img/apple-icon.png" />
           <div>
-            <h3 class="section-subtitle">about ETMASS</h3>
-            <h2 class="section-title">Mission</h2>
+            <p>love and care</p>
           </div>
-          <!-- section title -->
-          <p class="about-text">
-            EVANGELISM AND TENT-MAKING SUPPORT SERVICES, (ETMASS) is a
-            Faith-Based Non-Governmental Organization (FBNGO).
-          </p>
-          <p class="about-text">
-            We seek to minister and be guided by the totality of God’s word and
-            to purposefully make known Jesus Christ as Saviour and Lord in all
-            our activities.
-          </p>
-          <a href="about.html" class="main-btn ">find more</a>
-        </article>
+        </a>
+        <button
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          type="button" onclick="toggleNavbar('example-collapse-navbar')">
+          <i class="text-white fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+        id="example-collapse-navbar">
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <li class="flex items-center lz">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="index.html">&nbsp;&nbsp;&nbsp;<i class="fas fa-home"> </i> &nbsp;&nbsp;Home |</i></a>
+            <!-- <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#pablo">
+              <i class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg"></i><span
+                class="lg:hidden inline-block ml-2">Share</span>
+            </a> -->
+          </li>
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="contact.html">&nbsp;&nbsp;&nbsp;<i class="fas fa-address-book"> </i> &nbsp;&nbsp;Contact Us
+              |</i></a>
+          </li>
+          <!-- <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#pablo">
+              <i class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg"></i><span
+                class="lg:hidden inline-block ml-2">Star</span>
+            </a>
+          </li>
+          <li class="flex items-center">
+            <button
+              class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+              type="button" style="transition: all 0.15s ease 0s;">
+              <i class="fas fa-arrow-alt-circle-down"></i> Download
+            </button>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">
+      <div class="absolute top-0 w-full h-full bg-center bg-cover"
+        style="background-image: url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+        <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+      </div>
+      <div class="container relative mx-auto">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+            <div class="pr-12">
+              <h1 class="text-white font-semibold text-5xl" data-aos="fade-up">
+                Evangelism and Tent Making.
+              </h1>
+              <p class="mt-4 text-lg text-gray-300" data-aos="fade-right" data-aos-delay="1000">
+                Working towards the transformation and building of a just society from a Christian perspective...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+        style="height: 70px;">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </div>
+    <section class="pb-20 bg-gray-300 -mt-24">
+      <!-- Card Section -->
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+          <!-- Card -->
+          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fade-right" data-aos-delay="1200">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                  <i class="fas fa-award"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Our Vision</h6>
+                <p class="mt-2 mb-4 text-gray-600">
+                  Working towards the transformation and building of a just society from a Christian perspective.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-4/12 px-4 text-center" data-aos="fade-left" data-aos-delay="1600">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
+                  <i class="fas fa-retweet"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Our Values</h6>
+                <p class="mt-2 mb-4 text-gray-600">
+                  Love, Care, Truthfulness, Transparency, Accountability, Diligence and
+                  Expectation.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="pt-6 w-full md:w-4/12 px-4 text-center" data-aos="fade-left" data-aos-delay="1600">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+              <div class="px-4 py-5 flex-auto">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
+                  <i class="fas fa-fingerprint"></i>
+                </div>
+                <h6 class="text-xl font-semibold">Our Mission</h6>
+                <p class="mt-2 mb-4 text-gray-600">
+                  To give positive and voluntary obedience to the Great Commission in reaching out to the world through
+                  the services of
+                  holistic professional consultation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Text Box and Card Container -->
+        <div class="flex flex-wrap items-center mt-32">
+          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto" data-aos="zoom-in-right">
+            <div
+              class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
+              <i class="fas fa-user-friends text-xl"></i>
+            </div>
+            <h3 class="text-3xl mb-2 font-semibold leading-normal">
+              HUMAN SERVICES DEVELOPMENT
+            </h3>
+            <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+              Knowledge is Power. A man of knowledge increases strength.<br>
+              <i class="fas fa-book"> Sales & Distribution of Christian Books & Materials</i><br>
+              ＊ Guidance & Counseling Services<br>
+              · Marriage & Family Life Counseling<br>
+              · Guidance & Career/Educational Counseling.
+
+            </p>
+            <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
+              ＊ Societal Advocacy Services<br>
+              ＊ Evangelism & Church Planting<br>
+              ＊ Church Administration and Leadership,etc, etc.
+            </p>
+          </div>
+          <!-- Image Cap & Text Card -->
+          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto" data-aos="flip-left" data-aos-delay="1000">
+            <div
+              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
+              <img alt="..."
+                src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+                class="w-full align-middle rounded-t-lg" />
+              <blockquote class="relative p-8 mb-4">
+                <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
+                  class="absolute left-0 w-full block" style="height: 95px; top: -94px;">
+                  <polygon points="-30,95 583,95 583,65" class="text-pink-600 fill-current"></polygon>
+                </svg>
+                <h4 class="text-xl font-bold text-white">
+                  Top Notch Services
+                </h4>
+                <p class="text-md font-light mt-2 text-white">
+                  The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that
+                  process will continue whatever happens.
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <!-- end of about -->
-    <!-- products -->
-
-    <!-- end of  products -->
-    <!-- contact -->
-
-    <!-- end o fcontact -->
-    <footer class="footer">
-      <div class="section-center">
-        <div class="social-icons">
-          <!-- social icon -->
-          <a href="#" class="social-icon">
-            <i class="fab fa-facebook "></i>
-          </a>
-          <!-- end of social icon -->
-          <!-- social icon -->
-          <a href="#" class="social-icon">
-            <i class="fab fa-twitter "></i>
-          </a>
-          <!-- end of social icon -->
-          <!-- social icon -->
-          <a href="#" class="social-icon">
-            <i class="fab fa-instagram "></i>
-          </a>
-          <!-- end of social icon -->
-        </div>
-        <p class="footer-text">
-          &copy;2020<span class="text-primary">etmass</span>. all rights
-          reserved
-        </p>
-        <nav class="nav-footer">
-          <li><a href="index.html" class="nav-link">home</a></li>
-          <li><a href="mission.html" class="nav-link">mission</a></li>
-          <li><a href="about.html" class="nav-link">about</a></li>
-          <!-- <li><a href="products.html" class="nav-link">products</a></li> -->
-          <li><a href="contact.html" class="nav-link">contact</a></li>
-          <li><a href="donate.html" class="nav-link">donate</a></li>
-        </nav>
+    <section class="relative py-20">
+      <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px;">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon class="text-white fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
       </div>
-    </footer>
-    <script src="app.js"></script>
-  </body>
+      <!-- Section Container -->
+      <div class="container mx-auto px-4">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="flip-right" data-aos-delay="1000">
+            <img alt="..." class="max-w-full rounded-lg shadow-lg"
+              src="https://images.unsplash.com/photo-1534597422092-8a84f1b45a9c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" />
+          </div>
+          <!-- Text Box Container-->
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="zoom-in-left">
+            <div class="md:pr-12">
+              <div
+                class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
+                <i class="fas fa-rocket text-xl"></i>
+              </div>
+              <h3 class="text-3xl font-semibold">ENTREPRENEURIAL & EDUCATIONAL SKILLS DEVELOPMENT</h3>
+              <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                Identifying, developing, sustaining and putting into practice your God-given skills for meaningful
+                community support.
+              </p>
+              <ul class="list-none mt-6">
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fas fa-fingerprint"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">
+                        Computer Literacy & Skills Development
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fab fa-html5"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Technical & Vocational Skills Development</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="far fa-paper-plane"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Agriculture, Gardening & Horticulture skills Development</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="far fa-paper-plane"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Adult Education & Learning Skills Development</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="far fa-paper-plane"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Media & Communication Skills Development</h4>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ADDED TO, ONE -->
+    <section class="pb-20 bg-gray-300 -mt-24">
+      <div class="container mx-auto px-4 my-2">
+        <div class="flex flex-wrap items-center mt-32">
+          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto" data-aos="zoom-in">
+            <div
+              class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
+              <i class="fas fa-user-friends text-xl"></i>
+            </div>
+            <h3 class="text-3xl mb-2 font-semibold leading-normal">
+              REAL ESTATE & TECHNICAL SKILLS DEVELOPMENT
+            </h3>
+            <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+              Invest today and increase tomorrow.<br>
+              ＊ We link you to Safe & Secure Purchase of Real Estate and Farm Lands<br>
+              ＊ Land & Property Registration<br>
+              ＊ Preparation of Site Plans, Building Plans & Documentation<br>
+              ＊ Building & Construction Works - Masonry, Carpentry,Painting, Floor & Wall Tiling, Plumbing, Electrical
+              Wiring, Building & Fixing of Biogas Lavatories, etc, etc.
+            </p>
+            <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
+            <div class="flex items-center">
+              <div>
+                <span
+                  class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                    class="fas fa-pen"></i></span>
+              </div>
+              <div>
+                <h4 class="text-gray-600">
+                  Societal Advocacy Services
+                </h4>
+              </div>
+            </div>
+            ＊ Evangelism & Church Planting<br>
+            ＊ Church Administration and Leadership,etc, etc.
+            </p>
+          </div>
+          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto py-4" data-aos="flip-right" data-aos-delay="8000">
+            <div
+              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600">
+              <img alt="..."
+                src="https://images.unsplash.com/photo-1562063198-628e569b329e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80"
+                class="w-full align-middle rounded-t-lg" />
+              <blockquote class="relative p-8 mb-4">
+                <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
+                  class="absolute left-0 w-full block" style="height: 95px; top: -94px;">
+                  <polygon points="-30,95 583,95 583,65" class="text-pink-600 fill-current"></polygon>
+                </svg>
+                <h4 class="text-xl font-bold text-white">
+                  Top Notch Services
+                </h4>
+                <p class="text-md font-light mt-2 text-white">
+                  The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that
+                  process will continue whatever happens.
+                </p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF ADDITION -->
+    <!-- ADDED SECOND -->
+    <section class="relative py-20">
+      <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px;">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon class="text-white fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="flip-left">
+            <img alt="..." class="max-w-full rounded-lg shadow-lg"
+              src="https://images.unsplash.com/photo-1593630265256-d2cc162ab58f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" />
+          </div>
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="zoom-in-right" data-aos-delay="1000">
+            <div class="md:pr-12">
+              <div
+                class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
+                <i class="fas fa-rocket text-xl"></i>
+              </div>
+              <h3 class="text-3xl font-semibold">COMMUNITY PARTICIPATION, PROJECTS & PROGRAMMES DEVELOPMENT</h3>
+              <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                Putting innovative ideas into meaningful practice for the well-being of the human race and their
+                holistic development.
+              </p>
+              <ul class="list-none mt-6">
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="fas fa-cog"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">
+                        Research, Training & Development
+                      </h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class=" fas fa-thumbtack"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Rural/Urban Community Resource Mobilization & Development</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="far fa-paper-plane"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Project Planning & Development</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="far fa-paper-plane"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Registration, Resource Support and Training for Leaders & Personnel of:
+                      </h4>
+                      · Religious Bodies & Organizations
+                      · Private Schools & Institutions
+                      · NGOs/CBOs/FBOs
+                      · Town Development Associations
+                      · Youth Clubs,Market Women Associations & Groups, etc, etc.
+
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"><i
+                          class="far fa-paper-plane"></i></span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Monitoring & Evaluation of Programmes & Projects</h4>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="map"> </div>
+
+
+
+    <section class="pb-20 relative block bg-gray-900">
+      <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px;">
+        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+          <polygon class="text-gray-900 fill-current" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+        <div class="flex flex-wrap text-center justify-center">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-semibold text-white">Build something</h2>
+            <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
+              Put the potentially record low maximum sea ice extent tihs year down to low ice. According to the National
+              Oceanic and Atmospheric Administration, Ted, Scambos.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap mt-12 justify-center">
+          <div class="w-full lg:w-3/12 px-4 text-center">
+            <div
+              class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+              <i class="fas fa-medal text-xl"></i>
+            </div>
+            <h6 class="text-xl mt-5 font-semibold text-white">
+              Excelent Services
+            </h6>
+            <p class="mt-2 mb-4 text-gray-500">
+              Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
+          </div>
+          <div class="w-full lg:w-3/12 px-4 text-center">
+            <div
+              class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+              <i class="fas fa-poll text-xl"></i>
+            </div>
+            <h5 class="text-xl mt-5 font-semibold text-white">
+              Grow your market
+            </h5>
+            <p class="mt-2 mb-4 text-gray-500">
+              Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
+          </div>
+          <div class="w-full lg:w-3/12 px-4 text-center">
+            <div
+              class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+              <i class="fas fa-lightbulb text-xl"></i>
+            </div>
+            <h5 class="text-xl mt-5 font-semibold text-white">Launch time</h5>
+            <p class="mt-2 mb-4 text-gray-500">
+              Some quick example text to build on the card title and make up the bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="relative block py-24 lg:pt-0 bg-gray-900">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+          <div class="w-full lg:w-6/12 px-4">
+            <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
+              <div class="flex-auto p-5 lg:p-10">
+                <h4 class="text-2xl font-semibold">Want to work with us?</h4>
+                <p class="leading-relaxed mt-1 mb-4 text-gray-600">
+                  Complete this form and we will get back to you in 24 hours.
+                </p>
+                <div class="relative w-full mb-3 mt-8">
+                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="full-name">Full Name</label>
+                  <input type="text"
+                    class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                    placeholder="Full Name" style="transition: all 0.15s ease 0s;" />
+                </div>
+                <div class="relative w-full mb-3">
+                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="email">Email</label>
+                  <input type="email"
+                    class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                    placeholder="Email" style="transition: all 0.15s ease 0s;" />
+                </div>
+                <div class="relative w-full mb-3">
+                  <label class="block uppercase text-gray-700 text-xs font-bold mb-2" for="message">Message</label>
+                  <textarea rows="4" cols="80"
+                    class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                    placeholder="Type a message..."></textarea>
+                </div>
+                <div class="text-center mt-6">
+                  <button
+                    class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                    type="button" style="transition: all 0.15s ease 0s;">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="relative bg-gray-300 pt-8 pb-6">
+    <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+      style="height: 80px;">
+      <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+        version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+        <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+      </svg>
+    </div>
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap">
+        <div class="w-full lg:w-6/12 px-4">
+          <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+          <h5 class="text-lg mt-0 mb-2 text-gray-700">
+            Find us on any of these platforms, we respond 1-2 business days.
+          </h5>
+          <div class="mt-6">
+            <button
+              class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button">
+              <i class="flex fab fa-twitter"></i>
+            </button>
+            <button
+              class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button">
+              <i class="flex fab fa-facebook-square"></i>
+            </button>
+            <button
+              class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button">
+              <i class="flex fab fa-dribbble"></i>
+            </button>
+            <button
+              class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              type="button">
+              <i class="flex fab fa-github"></i>
+            </button>
+          </div>
+        </div>
+        <div class="w-full lg:w-6/12 px-4">
+          <div class="flex flex-wrap items-top mb-6">
+            <div class="w-full lg:w-4/12 px-4 ml-auto">
+              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Useful Links</span>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="https://www.creative-tim.com/presentation">About Us</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="https://blog.creative-tim.com">Blog</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="https://www.github.com/creativetimofficial">Github</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="https://www.creative-tim.com/bootstrap-themes/free">Free Products</a>
+                </li>
+              </ul>
+            </div>
+            <div class="w-full lg:w-4/12 px-4">
+              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Other Resources</span>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md">MIT
+                    License</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="https://creative-tim.com/terms">Terms &amp; Conditions</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="https://creative-tim.com/privacy">Privacy Policy</a>
+                </li>
+                <li>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    href="https://creative-tim.com/contact-us">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="my-6 border-gray-400" />
+      <div class="flex flex-wrap items-center md:justify-between justify-center">
+        <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+          <div class="text-sm text-gray-600 font-semibold py-1">
+            Copyright © 2021 | ETMASS
+            <a href="https://www.creative-tim.com" class="text-gray-600 hover:text-gray-900">Creative Tim</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="dist/aos.js"></script>
+<!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+<script>
+  AOS.init({
+    delay: 200, // values from 0 to 3000, with step 50ms
+    duration: 1500, // values from 0 to 3000, with step 50ms
+    easing: 'ease', // default easing for AOS animations
+    once: false, // whether animation should happen only once - while scrolling down
+    mirror: false, // whether elements should animate out while scrolling past them
+  });
+</script>
+<script>
+  function toggleNavbar(collapseID) {
+    document.getElementById(collapseID).classList.toggle("hidden");
+    document.getElementById(collapseID).classList.toggle("block");
+  }
+</script>
+<script src="js/main.js"></script>
+<script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6AVbQloasfEaV8p7GCYcyCgRj4xu11Tc&callback=initMap&libraries=&v=weekly"
+  async></script>
+
 </html>
